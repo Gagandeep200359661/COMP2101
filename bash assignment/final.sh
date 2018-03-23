@@ -167,8 +167,5 @@ fi
 if [ "$defaultvalue" = "yes" -o "$installedprinterlistinfo" = "yes" ]; then
   echo "$printerdetailsdone"
 fi
-if [ "$defaultvalue" = "yes" -o "$swboy" = "yes" ]; then
-  echo "$softwaredetailsdone"
-fi
 
 echo -----END OF THE SCRIPT-----
